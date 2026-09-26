@@ -32,8 +32,10 @@ export const circ = (cx, cy, r, fill, extra = '') =>
 export const line = (x1, y1, x2, y2, stroke, w = 3, extra = '') =>
   `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${stroke}" stroke-width="${w}" stroke-linecap="round" ${extra}/>`;
 
+const opt = (v, fallback) => (v === undefined || v === null ? fallback : v);
+
 export const txt = (s, o = {}) =>
-  `<text x="${o.x ?? 0}" y="${o.y ?? 0}" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="${o.size ?? 16}" font-weight="${o.weight ?? 700}" fill="${o.fill ?? C.navy}" text-anchor="${o.anchor ?? 'middle'}" letter-spacing="${o.ls ?? 0}" opacity="${o.opacity ?? 1}">${esc(s)}</text>`;
+  `<text x="${opt(o.x, 0)}" y="${opt(o.y, 0)}" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="${opt(o.size, 16)}" font-weight="${opt(o.weight, 700)}" fill="${opt(o.fill, C.navy)}" text-anchor="${opt(o.anchor, 'middle')}" letter-spacing="${opt(o.ls, 0)}" opacity="${opt(o.opacity, 1)}">${esc(s)}</text>`;
 
 export const ground = (cx, cy, rx) =>
   `<ellipse cx="${cx}" cy="${cy}" rx="${rx}" ry="${Math.round(rx * 0.17)}" fill="url(#gshadow)"/>`;
