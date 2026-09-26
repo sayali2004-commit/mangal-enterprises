@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img">
+<defs>
+  <linearGradient id="bodyG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#DDE7F7"/>
+  </linearGradient>
+  <linearGradient id="bodyG2" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E7EEFA"/>
+  </linearGradient>
+  <linearGradient id="topG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FBFDFF"/><stop offset="1" stop-color="#E4ECF9"/>
+  </linearGradient>
+  <linearGradient id="navyG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1E417E"/><stop offset="1" stop-color="#0A1B3D"/>
+  </linearGradient>
+  <linearGradient id="cyanG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#67E8F9"/><stop offset="1" stop-color="#0891B2"/>
+  </linearGradient>
+  <linearGradient id="blueG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#60A5FA"/><stop offset="1" stop-color="#1D4ED8"/>
+  </linearGradient>
+  <linearGradient id="violetG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#6D28D9"/>
+  </linearGradient>
+  <linearGradient id="greenG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#6EE7B7"/><stop offset="1" stop-color="#059669"/>
+  </linearGradient>
+  <linearGradient id="glassG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#DBEAFE" stop-opacity="0.95"/><stop offset="1" stop-color="#93C5FD" stop-opacity="0.7"/>
+  </linearGradient>
+  <linearGradient id="waterG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7DD3FC"/><stop offset="1" stop-color="#0EA5E9"/>
+  </linearGradient>
+  <radialGradient id="gshadow">
+    <stop offset="0" stop-color="#0A1B3D" stop-opacity="0.30"/>
+    <stop offset="0.65" stop-color="#0A1B3D" stop-opacity="0.10"/>
+    <stop offset="1" stop-color="#0A1B3D" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="mesh" width="15" height="15" patternUnits="userSpaceOnUse">
+    <circle cx="7.5" cy="7.5" r="2.2" fill="#C4D2E9"/>
+  </pattern>
+</defs>
+    <ellipse cx="320" cy="432" rx="156" ry="27" fill="url(#gshadow)"/>
+    <rect x="238" y="74" width="156" height="336" rx="36" fill="url(#bodyG)" stroke="#C4D2E9" stroke-width="2"/>
+    <rect x="262" y="92" width="108" height="28" rx="14" fill="#D8E3F4" /><rect x="272" y="100" width="88" height="10" rx="5" fill="url(#violetG)" />
+    <rect x="246" y="142" width="10" height="214" rx="5" fill="url(#violetG)" />
+    <rect x="274" y="138" width="106" height="226" rx="18" fill="#EAF1FB" />
+    <line x1="286" y1="152" x2="286" y2="348" stroke="#C4D2E9" stroke-width="3" stroke-linecap="round" /><line x1="304" y1="152" x2="304" y2="348" stroke="#C4D2E9" stroke-width="3" stroke-linecap="round" /><line x1="322" y1="152" x2="322" y2="348" stroke="#C4D2E9" stroke-width="3" stroke-linecap="round" /><line x1="340" y1="152" x2="340" y2="348" stroke="#C4D2E9" stroke-width="3" stroke-linecap="round" /><line x1="358" y1="152" x2="358" y2="348" stroke="#C4D2E9" stroke-width="3" stroke-linecap="round" /><line x1="376" y1="152" x2="376" y2="348" stroke="#C4D2E9" stroke-width="3" stroke-linecap="round" />
+    <rect x="292" y="376" width="50" height="20" rx="8" fill="url(#navyG)" /><rect x="299" y="382" width="36" height="8" rx="4" fill="#22D3EE" />
+    <rect x="252" y="406" width="128" height="18" rx="9" fill="#D8E3F4" />
+    <path d="M414 180 q 52 -9 104 0" stroke="#22D3EE" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.70"/><path d="M414 195 q 52 9 104 0" stroke="#22D3EE" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.52"/><path d="M414 210 q 52 -9 104 0" stroke="#22D3EE" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.34"/>
+    <rect x="238" y="34" width="190" height="36" rx="18" fill="url(#navyG)" /><text x="333" y="57.4" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.2" opacity="1">FLOOR STANDING</text>
+  </svg>

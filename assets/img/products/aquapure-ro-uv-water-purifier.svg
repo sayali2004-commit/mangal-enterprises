@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img">
+<defs>
+  <linearGradient id="bodyG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#DDE7F7"/>
+  </linearGradient>
+  <linearGradient id="bodyG2" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E7EEFA"/>
+  </linearGradient>
+  <linearGradient id="topG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FBFDFF"/><stop offset="1" stop-color="#E4ECF9"/>
+  </linearGradient>
+  <linearGradient id="navyG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1E417E"/><stop offset="1" stop-color="#0A1B3D"/>
+  </linearGradient>
+  <linearGradient id="cyanG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#67E8F9"/><stop offset="1" stop-color="#0891B2"/>
+  </linearGradient>
+  <linearGradient id="blueG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#60A5FA"/><stop offset="1" stop-color="#1D4ED8"/>
+  </linearGradient>
+  <linearGradient id="violetG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#6D28D9"/>
+  </linearGradient>
+  <linearGradient id="greenG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#6EE7B7"/><stop offset="1" stop-color="#059669"/>
+  </linearGradient>
+  <linearGradient id="glassG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#DBEAFE" stop-opacity="0.95"/><stop offset="1" stop-color="#93C5FD" stop-opacity="0.7"/>
+  </linearGradient>
+  <linearGradient id="waterG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7DD3FC"/><stop offset="1" stop-color="#0EA5E9"/>
+  </linearGradient>
+  <radialGradient id="gshadow">
+    <stop offset="0" stop-color="#0A1B3D" stop-opacity="0.30"/>
+    <stop offset="0.65" stop-color="#0A1B3D" stop-opacity="0.10"/>
+    <stop offset="1" stop-color="#0A1B3D" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="mesh" width="15" height="15" patternUnits="userSpaceOnUse">
+    <circle cx="7.5" cy="7.5" r="2.2" fill="#C4D2E9"/>
+  </pattern>
+</defs>
+    <ellipse cx="320" cy="418" rx="148" ry="25" fill="url(#gshadow)"/>
+    <rect x="214" y="96" width="212" height="248" rx="30" fill="url(#bodyG)" stroke="#C4D2E9" stroke-width="2"/>
+    <rect x="238" y="118" width="164" height="98" rx="18" fill="url(#glassG)" stroke="#93C5FD" stroke-width="3"/>
+    <rect x="246" y="168" width="148" height="40" rx="12" fill="url(#waterG)" />
+    <circle cx="320" cy="168" r="74" fill="#7DD3FC" opacity="0.0"/>
+    <rect x="246" y="164" width="148" height="9" rx="4.5" fill="#BAE6FD" />
+    <rect x="240" y="234" width="74" height="32" rx="16" fill="url(#blueG)" /><text x="277" y="255.4" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.2" opacity="1">RO</text>
+    <rect x="326" y="234" width="74" height="32" rx="16" fill="url(#violetG)" /><text x="363" y="255.4" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.2" opacity="1">UV</text>
+    <circle cx="248" cy="290" r="6" fill="url(#greenG)" /><circle cx="268" cy="290" r="6" fill="url(#cyanG)" />
+    <rect x="296" y="284" width="96" height="12" rx="6" fill="#D8E3F4" />
+    <rect x="240" y="316" width="160" height="10" rx="5" fill="url(#blueG)" />
+    <rect x="296" y="336" width="48" height="42" rx="13" fill="#D8E3F4" stroke="#C4D2E9" stroke-width="2"/>
+    <rect x="310" y="378" width="20" height="16" rx="6" fill="#C2D1E8" />
+    <circle cx="320" cy="404" r="9" fill="url(#waterG)" />
+  </svg>

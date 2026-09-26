@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img">
+<defs>
+  <linearGradient id="bodyG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#DDE7F7"/>
+  </linearGradient>
+  <linearGradient id="bodyG2" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E7EEFA"/>
+  </linearGradient>
+  <linearGradient id="topG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FBFDFF"/><stop offset="1" stop-color="#E4ECF9"/>
+  </linearGradient>
+  <linearGradient id="navyG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1E417E"/><stop offset="1" stop-color="#0A1B3D"/>
+  </linearGradient>
+  <linearGradient id="cyanG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#67E8F9"/><stop offset="1" stop-color="#0891B2"/>
+  </linearGradient>
+  <linearGradient id="blueG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#60A5FA"/><stop offset="1" stop-color="#1D4ED8"/>
+  </linearGradient>
+  <linearGradient id="violetG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#6D28D9"/>
+  </linearGradient>
+  <linearGradient id="greenG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#6EE7B7"/><stop offset="1" stop-color="#059669"/>
+  </linearGradient>
+  <linearGradient id="glassG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#DBEAFE" stop-opacity="0.95"/><stop offset="1" stop-color="#93C5FD" stop-opacity="0.7"/>
+  </linearGradient>
+  <linearGradient id="waterG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7DD3FC"/><stop offset="1" stop-color="#0EA5E9"/>
+  </linearGradient>
+  <radialGradient id="gshadow">
+    <stop offset="0" stop-color="#0A1B3D" stop-opacity="0.30"/>
+    <stop offset="0.65" stop-color="#0A1B3D" stop-opacity="0.10"/>
+    <stop offset="1" stop-color="#0A1B3D" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="mesh" width="15" height="15" patternUnits="userSpaceOnUse">
+    <circle cx="7.5" cy="7.5" r="2.2" fill="#C4D2E9"/>
+  </pattern>
+</defs>
+    <ellipse cx="320" cy="440" rx="162" ry="28" fill="url(#gshadow)"/>
+    <rect x="198" y="60" width="244" height="356" rx="24" fill="url(#bodyG)" stroke="#C4D2E9" stroke-width="2"/>
+    <rect x="212" y="74" width="216" height="34" rx="17" fill="url(#blueG)" /><text x="320" y="96.04" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.2" opacity="1">DISPLAY FREEZER</text>
+    <rect x="214" y="120" width="212" height="244" rx="16" fill="url(#glassG)" stroke="#93C5FD" stroke-width="3"/>
+    <line x1="224" y1="202" x2="416" y2="202" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity="0.9"/><rect x="232" y="148" width="36" height="44" rx="6" fill="#F472B6" opacity="0.92"/><rect x="278" y="148" width="36" height="44" rx="6" fill="#F59E0B" opacity="0.92"/><rect x="324" y="148" width="36" height="44" rx="6" fill="url(#greenG)" opacity="0.92"/><rect x="370" y="148" width="36" height="44" rx="6" fill="url(#blueG)" opacity="0.92"/><line x1="224" y1="280" x2="416" y2="280" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity="0.9"/><rect x="232" y="226" width="36" height="44" rx="6" fill="url(#violetG)" opacity="0.92"/><rect x="278" y="226" width="36" height="44" rx="6" fill="#22D3EE" opacity="0.92"/><rect x="324" y="226" width="36" height="44" rx="6" fill="#F59E0B" opacity="0.92"/><rect x="370" y="226" width="36" height="44" rx="6" fill="#F472B6" opacity="0.92"/><line x1="224" y1="358" x2="416" y2="358" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity="0.9"/><rect x="232" y="304" width="36" height="44" rx="6" fill="url(#greenG)" opacity="0.92"/><rect x="278" y="304" width="36" height="44" rx="6" fill="#F472B6" opacity="0.92"/><rect x="324" y="304" width="36" height="44" rx="6" fill="#F59E0B" opacity="0.92"/><rect x="370" y="304" width="36" height="44" rx="6" fill="url(#greenG)" opacity="0.92"/>
+    <rect x="220" y="128" width="9" height="228" rx="4.5" fill="#EFF6FF" opacity="0.95"/>
+    <rect x="408" y="154" width="10" height="152" rx="5" fill="#D8E3F4" />
+    <rect x="222" y="378" width="196" height="5" rx="2.5" fill="#C2D1E8" /><rect x="222" y="388" width="196" height="5" rx="2.5" fill="#C2D1E8" /><rect x="222" y="398" width="196" height="5" rx="2.5" fill="#C2D1E8" /><rect x="222" y="408" width="196" height="5" rx="2.5" fill="#C2D1E8" />
+    <rect x="214" y="410" width="44" height="16" rx="8" fill="#D8E3F4" /><rect x="382" y="410" width="44" height="16" rx="8" fill="#D8E3F4" />
+  </svg>

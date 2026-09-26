@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img">
+<defs>
+  <linearGradient id="bodyG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#DDE7F7"/>
+  </linearGradient>
+  <linearGradient id="bodyG2" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E7EEFA"/>
+  </linearGradient>
+  <linearGradient id="topG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FBFDFF"/><stop offset="1" stop-color="#E4ECF9"/>
+  </linearGradient>
+  <linearGradient id="navyG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1E417E"/><stop offset="1" stop-color="#0A1B3D"/>
+  </linearGradient>
+  <linearGradient id="cyanG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#67E8F9"/><stop offset="1" stop-color="#0891B2"/>
+  </linearGradient>
+  <linearGradient id="blueG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#60A5FA"/><stop offset="1" stop-color="#1D4ED8"/>
+  </linearGradient>
+  <linearGradient id="violetG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#6D28D9"/>
+  </linearGradient>
+  <linearGradient id="greenG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#6EE7B7"/><stop offset="1" stop-color="#059669"/>
+  </linearGradient>
+  <linearGradient id="glassG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#DBEAFE" stop-opacity="0.95"/><stop offset="1" stop-color="#93C5FD" stop-opacity="0.7"/>
+  </linearGradient>
+  <linearGradient id="waterG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7DD3FC"/><stop offset="1" stop-color="#0EA5E9"/>
+  </linearGradient>
+  <radialGradient id="gshadow">
+    <stop offset="0" stop-color="#0A1B3D" stop-opacity="0.30"/>
+    <stop offset="0.65" stop-color="#0A1B3D" stop-opacity="0.10"/>
+    <stop offset="1" stop-color="#0A1B3D" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="mesh" width="15" height="15" patternUnits="userSpaceOnUse">
+    <circle cx="7.5" cy="7.5" r="2.2" fill="#C4D2E9"/>
+  </pattern>
+</defs>
+    <rect x="226" y="78" width="168" height="332" rx="38" fill="url(#bodyG)" stroke="#C4D2E9" stroke-width="2"/>
+         <rect x="252" y="96" width="116" height="30" rx="15" fill="#D8E3F4" /><rect x="262" y="104" width="96" height="12" rx="6" fill="url(#violetG)" />
+         <rect x="240" y="150" width="140" height="218" rx="20" fill="#EAF1FB" />
+         <line x1="258" y1="168" x2="258" y2="352" stroke="#C4D2E9" stroke-width="3" stroke-linecap="round" /><line x1="284" y1="168" x2="284" y2="352" stroke="#C4D2E9" stroke-width="3" stroke-linecap="round" /><line x1="310" y1="168" x2="310" y2="352" stroke="#C4D2E9" stroke-width="3" stroke-linecap="round" /><line x1="336" y1="168" x2="336" y2="352" stroke="#C4D2E9" stroke-width="3" stroke-linecap="round" /><line x1="362" y1="168" x2="362" y2="352" stroke="#C4D2E9" stroke-width="3" stroke-linecap="round" />
+         <rect x="258" y="380" width="104" height="18" rx="9" fill="#D8E3F4" />
+         <path d="M416 190 q 48 -9 96 0" stroke="#22D3EE" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.70"/><path d="M416 205 q 48 9 96 0" stroke="#22D3EE" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.52"/><path d="M416 220 q 48 -9 96 0" stroke="#22D3EE" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.34"/>
+         <ellipse cx="310" cy="430" rx="156" ry="27" fill="url(#gshadow)"/>
+    
+    <g transform="rotate(-13 566 124)">
+      <path d="M520 74 H606 a16 16 0 0 1 16 16 V158 a16 16 0 0 1 -16 16 H520 L462 117 Z" fill="url(#violetG)" stroke="#6D28D9" stroke-width="3"/>
+      <circle cx="512" cy="117" r="12" fill="#FFFFFF" />
+      <text x="566" y="112" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5" opacity="1">RENT</text>
+      <text x="566" y="140" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#EDE9FE" text-anchor="middle" letter-spacing="0" opacity="1">per month</text>
+    </g>
+    <path d="M476 128 C 440 150 430 168 424 182" stroke="#C2D1E8" stroke-width="5" fill="none" stroke-dasharray="10 8" stroke-linecap="round"/>
+    <rect x="96" y="44" width="121" height="36" rx="18" fill="url(#navyG)" /><text x="156.5" y="67.4" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.2" opacity="1">ON RENT</text>
+  </svg>

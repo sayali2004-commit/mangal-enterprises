@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img">
+<defs>
+  <linearGradient id="bodyG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#DDE7F7"/>
+  </linearGradient>
+  <linearGradient id="bodyG2" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E7EEFA"/>
+  </linearGradient>
+  <linearGradient id="topG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FBFDFF"/><stop offset="1" stop-color="#E4ECF9"/>
+  </linearGradient>
+  <linearGradient id="navyG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1E417E"/><stop offset="1" stop-color="#0A1B3D"/>
+  </linearGradient>
+  <linearGradient id="cyanG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#67E8F9"/><stop offset="1" stop-color="#0891B2"/>
+  </linearGradient>
+  <linearGradient id="blueG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#60A5FA"/><stop offset="1" stop-color="#1D4ED8"/>
+  </linearGradient>
+  <linearGradient id="violetG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#6D28D9"/>
+  </linearGradient>
+  <linearGradient id="greenG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#6EE7B7"/><stop offset="1" stop-color="#059669"/>
+  </linearGradient>
+  <linearGradient id="glassG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#DBEAFE" stop-opacity="0.95"/><stop offset="1" stop-color="#93C5FD" stop-opacity="0.7"/>
+  </linearGradient>
+  <linearGradient id="waterG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7DD3FC"/><stop offset="1" stop-color="#0EA5E9"/>
+  </linearGradient>
+  <radialGradient id="gshadow">
+    <stop offset="0" stop-color="#0A1B3D" stop-opacity="0.30"/>
+    <stop offset="0.65" stop-color="#0A1B3D" stop-opacity="0.10"/>
+    <stop offset="1" stop-color="#0A1B3D" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="mesh" width="15" height="15" patternUnits="userSpaceOnUse">
+    <circle cx="7.5" cy="7.5" r="2.2" fill="#C4D2E9"/>
+  </pattern>
+</defs>
+    <ellipse cx="320" cy="436" rx="154" ry="26" fill="url(#gshadow)"/>
+    <path d="M268 40 q 52 -9 104 0" stroke="#22D3EE" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.70"/><path d="M268 55 q 52 9 104 0" stroke="#22D3EE" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.52"/>
+    <rect x="236" y="78" width="168" height="330" rx="56" fill="url(#bodyG)" stroke="#C4D2E9" stroke-width="2"/>
+    <rect x="268" y="104" width="104" height="56" rx="18" fill="url(#navyG)" />
+    <circle cx="292" cy="132" r="11" fill="url(#cyanG)" /><text x="336" y="138" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#22D3EE" text-anchor="middle" letter-spacing="0" opacity="1">AQI</text>
+    <rect x="276" y="178" width="88" height="12" rx="6" fill="url(#violetG)" />
+    <rect x="282" y="206" width="76" height="30" rx="15" fill="url(#navyG)" /><text x="320" y="225.68" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="800" fill="#22D3EE" text-anchor="middle" letter-spacing="1.2" opacity="1">HEPA</text>
+    <circle cx="320" cy="302" r="76" fill="#EAF1FB" /><circle cx="320" cy="300" r="74" fill="none" stroke="#C4D2E9" stroke-width="3"/><circle cx="320" cy="300" r="58" fill="none" stroke="#C4D2E9" stroke-width="3"/><circle cx="320" cy="300" r="42" fill="none" stroke="#C4D2E9" stroke-width="3"/><circle cx="320" cy="300" r="26" fill="none" stroke="#C4D2E9" stroke-width="3"/><line x1="340" y1="300" x2="394" y2="300" stroke="#C4D2E9" stroke-width="2.5" stroke-linecap="round" /><line x1="337.3205080756888" y1="310" x2="384.0858798800485" y2="337" stroke="#C4D2E9" stroke-width="2.5" stroke-linecap="round" /><line x1="330" y1="317.3205080756888" x2="357" y2="364.0858798800484" stroke="#C4D2E9" stroke-width="2.5" stroke-linecap="round" /><line x1="320" y1="320" x2="320" y2="374" stroke="#C4D2E9" stroke-width="2.5" stroke-linecap="round" /><line x1="310" y1="317.3205080756888" x2="283" y2="364.0858798800485" stroke="#C4D2E9" stroke-width="2.5" stroke-linecap="round" /><line x1="302.6794919243112" y1="310" x2="255.91412011995155" y2="337" stroke="#C4D2E9" stroke-width="2.5" stroke-linecap="round" /><line x1="300" y1="300" x2="246" y2="300" stroke="#C4D2E9" stroke-width="2.5" stroke-linecap="round" /><line x1="302.6794919243112" y1="290" x2="255.91412011995152" y2="263" stroke="#C4D2E9" stroke-width="2.5" stroke-linecap="round" /><line x1="310" y1="282.6794919243112" x2="282.99999999999994" y2="235.91412011995155" stroke="#C4D2E9" stroke-width="2.5" stroke-linecap="round" /><line x1="320" y1="280" x2="320" y2="226" stroke="#C4D2E9" stroke-width="2.5" stroke-linecap="round" /><line x1="330" y1="282.6794919243112" x2="356.99999999999994" y2="235.91412011995152" stroke="#C4D2E9" stroke-width="2.5" stroke-linecap="round" /><line x1="337.3205080756888" y1="290" x2="384.0858798800484" y2="262.99999999999994" stroke="#C4D2E9" stroke-width="2.5" stroke-linecap="round" /><circle cx="320" cy="302" r="14" fill="url(#navyG)" />
+    <rect x="266" y="404" width="108" height="18" rx="9" fill="#D8E3F4" />
+  </svg>

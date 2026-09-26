@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img">
+<defs>
+  <linearGradient id="bodyG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#DDE7F7"/>
+  </linearGradient>
+  <linearGradient id="bodyG2" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E7EEFA"/>
+  </linearGradient>
+  <linearGradient id="topG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FBFDFF"/><stop offset="1" stop-color="#E4ECF9"/>
+  </linearGradient>
+  <linearGradient id="navyG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1E417E"/><stop offset="1" stop-color="#0A1B3D"/>
+  </linearGradient>
+  <linearGradient id="cyanG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#67E8F9"/><stop offset="1" stop-color="#0891B2"/>
+  </linearGradient>
+  <linearGradient id="blueG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#60A5FA"/><stop offset="1" stop-color="#1D4ED8"/>
+  </linearGradient>
+  <linearGradient id="violetG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#6D28D9"/>
+  </linearGradient>
+  <linearGradient id="greenG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#6EE7B7"/><stop offset="1" stop-color="#059669"/>
+  </linearGradient>
+  <linearGradient id="glassG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#DBEAFE" stop-opacity="0.95"/><stop offset="1" stop-color="#93C5FD" stop-opacity="0.7"/>
+  </linearGradient>
+  <linearGradient id="waterG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7DD3FC"/><stop offset="1" stop-color="#0EA5E9"/>
+  </linearGradient>
+  <radialGradient id="gshadow">
+    <stop offset="0" stop-color="#0A1B3D" stop-opacity="0.30"/>
+    <stop offset="0.65" stop-color="#0A1B3D" stop-opacity="0.10"/>
+    <stop offset="1" stop-color="#0A1B3D" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="mesh" width="15" height="15" patternUnits="userSpaceOnUse">
+    <circle cx="7.5" cy="7.5" r="2.2" fill="#C4D2E9"/>
+  </pattern>
+</defs>
+    <ellipse cx="320" cy="430" rx="250" ry="43" fill="url(#gshadow)"/>
+    <path d="M120 238 L184 190 L184 238 Z" fill="url(#topG)" stroke="#C4D2E9" stroke-width="2.5"/><path d="M206 238 L270 190 L270 238 Z" fill="url(#topG)" stroke="#C4D2E9" stroke-width="2.5"/><path d="M292 238 L356 190 L356 238 Z" fill="url(#topG)" stroke="#C4D2E9" stroke-width="2.5"/><path d="M378 238 L442 190 L442 238 Z" fill="url(#topG)" stroke="#C4D2E9" stroke-width="2.5"/>
+    <rect x="120" y="236" width="340" height="168" rx="10" fill="url(#bodyG)" stroke="#C4D2E9" stroke-width="2.5"/>
+    <rect x="146" y="268" width="44" height="34" rx="6" fill="url(#navyG)" opacity="0.9"/><rect x="208" y="268" width="44" height="34" rx="6" fill="url(#cyanG)" opacity="0.9"/><rect x="270" y="268" width="44" height="34" rx="6" fill="url(#navyG)" opacity="0.9"/><rect x="332" y="268" width="44" height="34" rx="6" fill="url(#navyG)" opacity="0.9"/><rect x="394" y="268" width="44" height="34" rx="6" fill="url(#navyG)" opacity="0.9"/>
+    <rect x="300" y="322" width="92" height="82" rx="6" fill="#D8E3F4" stroke="#C4D2E9" stroke-width="2"/>
+    <line x1="346" y1="322" x2="346" y2="404" stroke="#C4D2E9" stroke-width="3" stroke-linecap="round" />
+    <rect x="424" y="148" width="28" height="58" rx="7" fill="#D8E3F4" stroke="#C4D2E9" stroke-width="2"/>
+    <rect x="120" y="394" width="340" height="12" rx="6" fill="url(#cyanG)" />
+    <rect x="486" y="300" width="114" height="96" rx="16" fill="#D8E3F4" stroke="#C4D2E9" stroke-width="2"/>
+    <circle cx="516" cy="348" r="24" fill="#EAF1FB" /><circle cx="516" cy="348" r="24" fill="none" stroke="#C4D2E9" stroke-width="2.5"/><circle cx="516" cy="348" r="18.72" fill="none" stroke="#C4D2E9" stroke-width="2.5"/><circle cx="516" cy="348" r="13.440000000000001" fill="none" stroke="#C4D2E9" stroke-width="2.5"/><circle cx="516" cy="348" r="8.16" fill="none" stroke="#C4D2E9" stroke-width="2.5"/><line x1="516" y1="348" x2="540" y2="348" stroke="#C4D2E9" stroke-width="2" stroke-linecap="round" /><line x1="516" y1="348" x2="532.9705627484772" y2="364.97056274847716" stroke="#C4D2E9" stroke-width="2" stroke-linecap="round" /><line x1="516" y1="348" x2="516" y2="372" stroke="#C4D2E9" stroke-width="2" stroke-linecap="round" /><line x1="516" y1="348" x2="499.02943725152284" y2="364.97056274847716" stroke="#C4D2E9" stroke-width="2" stroke-linecap="round" /><line x1="516" y1="348" x2="492" y2="348" stroke="#C4D2E9" stroke-width="2" stroke-linecap="round" /><line x1="516" y1="348" x2="499.02943725152284" y2="331.02943725152284" stroke="#C4D2E9" stroke-width="2" stroke-linecap="round" /><line x1="516" y1="348" x2="516" y2="324" stroke="#C4D2E9" stroke-width="2" stroke-linecap="round" /><line x1="516" y1="348" x2="532.9705627484772" y2="331.02943725152284" stroke="#C4D2E9" stroke-width="2" stroke-linecap="round" /><circle cx="516" cy="348" r="3.84" fill="#13315F" /><circle cx="572" cy="348" r="24" fill="#EAF1FB" /><circle cx="572" cy="348" r="24" fill="none" stroke="#C4D2E9" stroke-width="2.5"/><circle cx="572" cy="348" r="18.72" fill="none" stroke="#C4D2E9" stroke-width="2.5"/><circle cx="572" cy="348" r="13.440000000000001" fill="none" stroke="#C4D2E9" stroke-width="2.5"/><circle cx="572" cy="348" r="8.16" fill="none" stroke="#C4D2E9" stroke-width="2.5"/><line x1="572" y1="348" x2="596" y2="348" stroke="#C4D2E9" stroke-width="2" stroke-linecap="round" /><line x1="572" y1="348" x2="588.9705627484772" y2="364.97056274847716" stroke="#C4D2E9" stroke-width="2" stroke-linecap="round" /><line x1="572" y1="348" x2="572" y2="372" stroke="#C4D2E9" stroke-width="2" stroke-linecap="round" /><line x1="572" y1="348" x2="555.0294372515228" y2="364.97056274847716" stroke="#C4D2E9" stroke-width="2" stroke-linecap="round" /><line x1="572" y1="348" x2="548" y2="348" stroke="#C4D2E9" stroke-width="2" stroke-linecap="round" /><line x1="572" y1="348" x2="555.0294372515228" y2="331.02943725152284" stroke="#C4D2E9" stroke-width="2" stroke-linecap="round" /><line x1="572" y1="348" x2="572" y2="324" stroke="#C4D2E9" stroke-width="2" stroke-linecap="round" /><line x1="572" y1="348" x2="588.9705627484772" y2="331.02943725152284" stroke="#C4D2E9" stroke-width="2" stroke-linecap="round" /><circle cx="572" cy="348" r="3.84" fill="#13315F" />
+    <rect x="496" y="310" width="94" height="8" rx="4" fill="url(#cyanG)" />
+    <path d="M460 330 H486" stroke="#60A5FA" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <path d="M460 366 H486" stroke="#C2D1E8" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <line x1="543" y1="296" x2="543" y2="276" stroke="#60A5FA" stroke-width="9" stroke-linecap="round" />
+    <circle cx="543" cy="246" r="34" fill="url(#navyG)" /><g stroke="#22D3EE" stroke-width="3.5" stroke-linecap="round" opacity="1"><line x1="526" y1="246" x2="560" y2="246" transform="rotate(0 543 246)"/><line x1="526" y1="246" x2="560" y2="246" transform="rotate(60 543 246)"/><line x1="526" y1="246" x2="560" y2="246" transform="rotate(120 543 246)"/><line x1="552.35" y1="246" x2="557.45" y2="240.56" transform="rotate(0 543 246)"/><line x1="552.35" y1="246" x2="557.45" y2="251.44" transform="rotate(0 543 246)"/><line x1="533.65" y1="246" x2="528.55" y2="240.56" transform="rotate(0 543 246)"/><line x1="533.65" y1="246" x2="528.55" y2="251.44" transform="rotate(0 543 246)"/><line x1="552.35" y1="246" x2="557.45" y2="240.56" transform="rotate(60 543 246)"/><line x1="552.35" y1="246" x2="557.45" y2="251.44" transform="rotate(60 543 246)"/><line x1="533.65" y1="246" x2="528.55" y2="240.56" transform="rotate(60 543 246)"/><line x1="533.65" y1="246" x2="528.55" y2="251.44" transform="rotate(60 543 246)"/><line x1="552.35" y1="246" x2="557.45" y2="240.56" transform="rotate(120 543 246)"/><line x1="552.35" y1="246" x2="557.45" y2="251.44" transform="rotate(120 543 246)"/><line x1="533.65" y1="246" x2="528.55" y2="240.56" transform="rotate(120 543 246)"/><line x1="533.65" y1="246" x2="528.55" y2="251.44" transform="rotate(120 543 246)"/></g>
+    <rect x="120" y="52" width="220" height="36" rx="18" fill="url(#navyG)" /><text x="230" y="75.4" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.2" opacity="1">TURNKEY PROJECTS</text>
+  </svg>

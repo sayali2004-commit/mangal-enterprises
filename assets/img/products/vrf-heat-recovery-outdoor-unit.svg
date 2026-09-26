@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img">
+<defs>
+  <linearGradient id="bodyG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#DDE7F7"/>
+  </linearGradient>
+  <linearGradient id="bodyG2" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E7EEFA"/>
+  </linearGradient>
+  <linearGradient id="topG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FBFDFF"/><stop offset="1" stop-color="#E4ECF9"/>
+  </linearGradient>
+  <linearGradient id="navyG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1E417E"/><stop offset="1" stop-color="#0A1B3D"/>
+  </linearGradient>
+  <linearGradient id="cyanG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#67E8F9"/><stop offset="1" stop-color="#0891B2"/>
+  </linearGradient>
+  <linearGradient id="blueG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#60A5FA"/><stop offset="1" stop-color="#1D4ED8"/>
+  </linearGradient>
+  <linearGradient id="violetG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#6D28D9"/>
+  </linearGradient>
+  <linearGradient id="greenG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#6EE7B7"/><stop offset="1" stop-color="#059669"/>
+  </linearGradient>
+  <linearGradient id="glassG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#DBEAFE" stop-opacity="0.95"/><stop offset="1" stop-color="#93C5FD" stop-opacity="0.7"/>
+  </linearGradient>
+  <linearGradient id="waterG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7DD3FC"/><stop offset="1" stop-color="#0EA5E9"/>
+  </linearGradient>
+  <radialGradient id="gshadow">
+    <stop offset="0" stop-color="#0A1B3D" stop-opacity="0.30"/>
+    <stop offset="0.65" stop-color="#0A1B3D" stop-opacity="0.10"/>
+    <stop offset="1" stop-color="#0A1B3D" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="mesh" width="15" height="15" patternUnits="userSpaceOnUse">
+    <circle cx="7.5" cy="7.5" r="2.2" fill="#C4D2E9"/>
+  </pattern>
+</defs>
+    <ellipse cx="320" cy="420" rx="208" ry="35" fill="url(#gshadow)"/>
+    <rect x="140" y="96" width="344" height="296" rx="22" fill="url(#bodyG)" stroke="#C4D2E9" stroke-width="2"/>
+    <rect x="154" y="108" width="316" height="12" rx="6" fill="url(#blueG)" />
+    <rect x="158" y="134" width="308" height="5" rx="2.5" fill="#C2D1E8" /><rect x="158" y="146" width="308" height="5" rx="2.5" fill="#C2D1E8" /><rect x="158" y="158" width="308" height="5" rx="2.5" fill="#C2D1E8" /><rect x="158" y="170" width="308" height="5" rx="2.5" fill="#C2D1E8" />
+    <circle cx="238" cy="262" r="62" fill="#EAF1FB" /><circle cx="238" cy="262" r="62" fill="none" stroke="#C4D2E9" stroke-width="3.7199999999999998"/><circle cx="238" cy="262" r="48.36" fill="none" stroke="#C4D2E9" stroke-width="3.7199999999999998"/><circle cx="238" cy="262" r="34.720000000000006" fill="none" stroke="#C4D2E9" stroke-width="3.7199999999999998"/><circle cx="238" cy="262" r="21.080000000000002" fill="none" stroke="#C4D2E9" stroke-width="3.7199999999999998"/><line x1="238" y1="262" x2="300" y2="262" stroke="#C4D2E9" stroke-width="3.1" stroke-linecap="round" /><line x1="238" y1="262" x2="281.84062043356596" y2="305.84062043356596" stroke="#C4D2E9" stroke-width="3.1" stroke-linecap="round" /><line x1="238" y1="262" x2="238" y2="324" stroke="#C4D2E9" stroke-width="3.1" stroke-linecap="round" /><line x1="238" y1="262" x2="194.15937956643404" y2="305.84062043356596" stroke="#C4D2E9" stroke-width="3.1" stroke-linecap="round" /><line x1="238" y1="262" x2="176" y2="262" stroke="#C4D2E9" stroke-width="3.1" stroke-linecap="round" /><line x1="238" y1="262" x2="194.15937956643404" y2="218.15937956643404" stroke="#C4D2E9" stroke-width="3.1" stroke-linecap="round" /><line x1="238" y1="262" x2="238" y2="200" stroke="#C4D2E9" stroke-width="3.1" stroke-linecap="round" /><line x1="238" y1="262" x2="281.84062043356596" y2="218.15937956643404" stroke="#C4D2E9" stroke-width="3.1" stroke-linecap="round" /><circle cx="238" cy="262" r="9.92" fill="#13315F" />
+    <circle cx="400" cy="262" r="62" fill="#EAF1FB" /><circle cx="400" cy="262" r="62" fill="none" stroke="#C4D2E9" stroke-width="3.7199999999999998"/><circle cx="400" cy="262" r="48.36" fill="none" stroke="#C4D2E9" stroke-width="3.7199999999999998"/><circle cx="400" cy="262" r="34.720000000000006" fill="none" stroke="#C4D2E9" stroke-width="3.7199999999999998"/><circle cx="400" cy="262" r="21.080000000000002" fill="none" stroke="#C4D2E9" stroke-width="3.7199999999999998"/><line x1="400" y1="262" x2="462" y2="262" stroke="#C4D2E9" stroke-width="3.1" stroke-linecap="round" /><line x1="400" y1="262" x2="443.84062043356596" y2="305.84062043356596" stroke="#C4D2E9" stroke-width="3.1" stroke-linecap="round" /><line x1="400" y1="262" x2="400" y2="324" stroke="#C4D2E9" stroke-width="3.1" stroke-linecap="round" /><line x1="400" y1="262" x2="356.15937956643404" y2="305.84062043356596" stroke="#C4D2E9" stroke-width="3.1" stroke-linecap="round" /><line x1="400" y1="262" x2="338" y2="262" stroke="#C4D2E9" stroke-width="3.1" stroke-linecap="round" /><line x1="400" y1="262" x2="356.15937956643404" y2="218.15937956643404" stroke="#C4D2E9" stroke-width="3.1" stroke-linecap="round" /><line x1="400" y1="262" x2="400" y2="200" stroke="#C4D2E9" stroke-width="3.1" stroke-linecap="round" /><line x1="400" y1="262" x2="443.84062043356596" y2="218.15937956643404" stroke="#C4D2E9" stroke-width="3.1" stroke-linecap="round" /><circle cx="400" cy="262" r="9.92" fill="#13315F" />
+    <rect x="160" y="392" width="56" height="16" rx="8" fill="#D8E3F4" /><rect x="408" y="392" width="56" height="16" rx="8" fill="#D8E3F4" />
+    <rect x="492" y="152" width="36" height="168" rx="12" fill="#D8E3F4" />
+    <circle cx="510" cy="194" r="9" fill="url(#navyG)" /><circle cx="510" cy="232" r="9" fill="url(#cyanG)" />
+    <line x1="528" y1="194" x2="546" y2="194" stroke="#C2D1E8" stroke-width="9" stroke-linecap="round" /><line x1="528" y1="232" x2="546" y2="232" stroke="#C2D1E8" stroke-width="9" stroke-linecap="round" />
+    <rect x="140" y="46" width="77" height="36" rx="18" fill="url(#navyG)" /><text x="178.5" y="69.4" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.2" opacity="1">VRF</text>
+  </svg>

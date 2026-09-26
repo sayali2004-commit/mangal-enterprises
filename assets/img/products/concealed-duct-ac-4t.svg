@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img">
+<defs>
+  <linearGradient id="bodyG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#DDE7F7"/>
+  </linearGradient>
+  <linearGradient id="bodyG2" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E7EEFA"/>
+  </linearGradient>
+  <linearGradient id="topG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FBFDFF"/><stop offset="1" stop-color="#E4ECF9"/>
+  </linearGradient>
+  <linearGradient id="navyG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1E417E"/><stop offset="1" stop-color="#0A1B3D"/>
+  </linearGradient>
+  <linearGradient id="cyanG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#67E8F9"/><stop offset="1" stop-color="#0891B2"/>
+  </linearGradient>
+  <linearGradient id="blueG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#60A5FA"/><stop offset="1" stop-color="#1D4ED8"/>
+  </linearGradient>
+  <linearGradient id="violetG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#6D28D9"/>
+  </linearGradient>
+  <linearGradient id="greenG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#6EE7B7"/><stop offset="1" stop-color="#059669"/>
+  </linearGradient>
+  <linearGradient id="glassG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#DBEAFE" stop-opacity="0.95"/><stop offset="1" stop-color="#93C5FD" stop-opacity="0.7"/>
+  </linearGradient>
+  <linearGradient id="waterG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7DD3FC"/><stop offset="1" stop-color="#0EA5E9"/>
+  </linearGradient>
+  <radialGradient id="gshadow">
+    <stop offset="0" stop-color="#0A1B3D" stop-opacity="0.30"/>
+    <stop offset="0.65" stop-color="#0A1B3D" stop-opacity="0.10"/>
+    <stop offset="1" stop-color="#0A1B3D" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="mesh" width="15" height="15" patternUnits="userSpaceOnUse">
+    <circle cx="7.5" cy="7.5" r="2.2" fill="#C4D2E9"/>
+  </pattern>
+</defs>
+    <ellipse cx="320" cy="412" rx="232" ry="39" fill="url(#gshadow)"/>
+    <rect x="180" y="112" width="280" height="12" rx="6" fill="#D8E3F4" />
+    <line x1="232" y1="124" x2="232" y2="176" stroke="#C2D1E8" stroke-width="7" stroke-linecap="round" /><line x1="408" y1="124" x2="408" y2="176" stroke="#C2D1E8" stroke-width="7" stroke-linecap="round" />
+    <rect x="74" y="194" width="122" height="114" rx="16" fill="#EAF1FB" /><line x1="84" y1="206" x2="84" y2="296" stroke="#C2D1E8" stroke-width="3" stroke-linecap="round" /><line x1="98" y1="206" x2="98" y2="296" stroke="#C2D1E8" stroke-width="3" stroke-linecap="round" /><line x1="112" y1="206" x2="112" y2="296" stroke="#C2D1E8" stroke-width="3" stroke-linecap="round" /><line x1="126" y1="206" x2="126" y2="296" stroke="#C2D1E8" stroke-width="3" stroke-linecap="round" /><line x1="140" y1="206" x2="140" y2="296" stroke="#C2D1E8" stroke-width="3" stroke-linecap="round" /><line x1="154" y1="206" x2="154" y2="296" stroke="#C2D1E8" stroke-width="3" stroke-linecap="round" /><line x1="168" y1="206" x2="168" y2="296" stroke="#C2D1E8" stroke-width="3" stroke-linecap="round" /><line x1="182" y1="206" x2="182" y2="296" stroke="#C2D1E8" stroke-width="3" stroke-linecap="round" />
+    <rect x="444" y="194" width="122" height="114" rx="16" fill="#EAF1FB" /><line x1="454" y1="206" x2="454" y2="296" stroke="#C2D1E8" stroke-width="3" stroke-linecap="round" /><line x1="468" y1="206" x2="468" y2="296" stroke="#C2D1E8" stroke-width="3" stroke-linecap="round" /><line x1="482" y1="206" x2="482" y2="296" stroke="#C2D1E8" stroke-width="3" stroke-linecap="round" /><line x1="496" y1="206" x2="496" y2="296" stroke="#C2D1E8" stroke-width="3" stroke-linecap="round" /><line x1="510" y1="206" x2="510" y2="296" stroke="#C2D1E8" stroke-width="3" stroke-linecap="round" /><line x1="524" y1="206" x2="524" y2="296" stroke="#C2D1E8" stroke-width="3" stroke-linecap="round" /><line x1="538" y1="206" x2="538" y2="296" stroke="#C2D1E8" stroke-width="3" stroke-linecap="round" /><line x1="552" y1="206" x2="552" y2="296" stroke="#C2D1E8" stroke-width="3" stroke-linecap="round" />
+    <rect x="192" y="162" width="256" height="180" rx="22" fill="url(#bodyG)" stroke="#C4D2E9" stroke-width="2"/>
+    <rect x="206" y="176" width="228" height="16" rx="8" fill="url(#violetG)" />
+    <circle cx="320" cy="254" r="52" fill="#EAF1FB" /><circle cx="320" cy="254" r="52" fill="none" stroke="#C4D2E9" stroke-width="3.12"/><circle cx="320" cy="254" r="40.56" fill="none" stroke="#C4D2E9" stroke-width="3.12"/><circle cx="320" cy="254" r="29.120000000000005" fill="none" stroke="#C4D2E9" stroke-width="3.12"/><circle cx="320" cy="254" r="17.68" fill="none" stroke="#C4D2E9" stroke-width="3.12"/><line x1="320" y1="254" x2="372" y2="254" stroke="#C4D2E9" stroke-width="2.6" stroke-linecap="round" /><line x1="320" y1="254" x2="356.7695526217005" y2="290.7695526217005" stroke="#C4D2E9" stroke-width="2.6" stroke-linecap="round" /><line x1="320" y1="254" x2="320" y2="306" stroke="#C4D2E9" stroke-width="2.6" stroke-linecap="round" /><line x1="320" y1="254" x2="283.2304473782995" y2="290.7695526217005" stroke="#C4D2E9" stroke-width="2.6" stroke-linecap="round" /><line x1="320" y1="254" x2="268" y2="254" stroke="#C4D2E9" stroke-width="2.6" stroke-linecap="round" /><line x1="320" y1="254" x2="283.2304473782995" y2="217.23044737829952" stroke="#C4D2E9" stroke-width="2.6" stroke-linecap="round" /><line x1="320" y1="254" x2="320" y2="202" stroke="#C4D2E9" stroke-width="2.6" stroke-linecap="round" /><line x1="320" y1="254" x2="356.7695526217005" y2="217.23044737829952" stroke="#C4D2E9" stroke-width="2.6" stroke-linecap="round" /><circle cx="320" cy="254" r="8.32" fill="#13315F" />
+    <rect x="272" y="308" width="96" height="30" rx="15" fill="url(#navyG)" /><text x="320" y="327.68" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.2" opacity="1">DUCTABLE</text>
+    <g stroke="#22D3EE" stroke-width="6" stroke-linecap="round" fill="none">
+      <path d="M578 250 h28"/><path d="M600 239 l11 11 l-11 11" stroke-linejoin="round"/></g>
+    <g stroke="#22D3EE" stroke-width="6" stroke-linecap="round" fill="none">
+      <path d="M62 250 h28"/><path d="M84 239 l11 11 l-11 11" stroke-linejoin="round"/></g>
+  </svg>

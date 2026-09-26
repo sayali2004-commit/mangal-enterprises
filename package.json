@@ -1,0 +1,13 @@
+{
+  "name": "mangal-enterprises-catalog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium digital product catalog website for Mangal Enterprises",
+  "type": "module",
+  "scripts": {
+    "assets": "node tools/generate-assets.mjs",
+    "pdfs": "node tools/generate-pdfs.mjs",
+    "build": "node tools/generate-assets.mjs && node tools/generate-pdfs.mjs",
+    "serve": "node tools/serve.mjs"
+  }
+}

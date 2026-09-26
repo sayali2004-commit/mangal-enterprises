@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img">
+<defs>
+  <linearGradient id="bodyG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#DDE7F7"/>
+  </linearGradient>
+  <linearGradient id="bodyG2" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E7EEFA"/>
+  </linearGradient>
+  <linearGradient id="topG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FBFDFF"/><stop offset="1" stop-color="#E4ECF9"/>
+  </linearGradient>
+  <linearGradient id="navyG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1E417E"/><stop offset="1" stop-color="#0A1B3D"/>
+  </linearGradient>
+  <linearGradient id="cyanG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#67E8F9"/><stop offset="1" stop-color="#0891B2"/>
+  </linearGradient>
+  <linearGradient id="blueG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#60A5FA"/><stop offset="1" stop-color="#1D4ED8"/>
+  </linearGradient>
+  <linearGradient id="violetG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#6D28D9"/>
+  </linearGradient>
+  <linearGradient id="greenG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#6EE7B7"/><stop offset="1" stop-color="#059669"/>
+  </linearGradient>
+  <linearGradient id="glassG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#DBEAFE" stop-opacity="0.95"/><stop offset="1" stop-color="#93C5FD" stop-opacity="0.7"/>
+  </linearGradient>
+  <linearGradient id="waterG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7DD3FC"/><stop offset="1" stop-color="#0EA5E9"/>
+  </linearGradient>
+  <radialGradient id="gshadow">
+    <stop offset="0" stop-color="#0A1B3D" stop-opacity="0.30"/>
+    <stop offset="0.65" stop-color="#0A1B3D" stop-opacity="0.10"/>
+    <stop offset="1" stop-color="#0A1B3D" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="mesh" width="15" height="15" patternUnits="userSpaceOnUse">
+    <circle cx="7.5" cy="7.5" r="2.2" fill="#C4D2E9"/>
+  </pattern>
+</defs>
+    <ellipse cx="330" cy="434" rx="246" ry="42" fill="url(#gshadow)"/>
+    <path d="M86 300 V386 a64 18 0 0 0 128 0 V300 Z" fill="url(#bodyG)" stroke="#C4D2E9" stroke-width="2"/>
+    <circle cx="150" cy="300" r="64" fill="url(#topG)" stroke="#C4D2E9" stroke-width="2"/>
+    <rect x="126" y="284" width="48" height="18" rx="9" fill="#D8E3F4" />
+    <rect x="104" y="330" width="92" height="32" rx="16" fill="url(#navyG)" /><text x="150" y="351.04" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.2" opacity="1">12 L</text>
+    <path d="M152 288 C 214 280 262 150 322 150" stroke="#60A5FA" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M322 146 C 352 106 382 106 410 146" stroke="#C2D1E8" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M410 146 C 440 106 470 106 498 146" stroke="#C2D1E8" stroke-width="8" fill="none" stroke-linecap="round"/>
+    
+    <rect x="282" y="150" width="80" height="26" rx="11" fill="#D8E3F4" stroke="#C4D2E9" stroke-width="2"/>
+    <rect x="290" y="172" width="64" height="214" rx="30" fill="url(#bodyG)" stroke="#C4D2E9" stroke-width="2"/>
+    <rect x="298" y="212" width="48" height="12" rx="6" fill="url(#cyanG)" />
+    <text x="322" y="366" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="800" fill="#13315F" text-anchor="middle" letter-spacing="0.6" opacity="1">SEDIMENT</text>
+    
+    <rect x="370" y="150" width="80" height="26" rx="11" fill="#D8E3F4" stroke="#C4D2E9" stroke-width="2"/>
+    <rect x="378" y="172" width="64" height="214" rx="30" fill="url(#bodyG)" stroke="#C4D2E9" stroke-width="2"/>
+    <rect x="386" y="212" width="48" height="12" rx="6" fill="url(#blueG)" />
+    <text x="410" y="366" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="800" fill="#13315F" text-anchor="middle" letter-spacing="0.6" opacity="1">CARBON</text>
+    
+    <rect x="458" y="150" width="80" height="26" rx="11" fill="#D8E3F4" stroke="#C4D2E9" stroke-width="2"/>
+    <rect x="466" y="172" width="64" height="214" rx="30" fill="url(#bodyG)" stroke="#C4D2E9" stroke-width="2"/>
+    <rect x="474" y="212" width="48" height="12" rx="6" fill="url(#violetG)" />
+    <text x="498" y="366" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="800" fill="#13315F" text-anchor="middle" letter-spacing="0.6" opacity="1">MEMBRANE</text>
+    <rect x="276" y="392" width="284" height="16" rx="8" fill="#D8E3F4" />
+    <rect x="288" y="406" width="34" height="14" rx="7" fill="#C2D1E8" /><rect x="514" y="406" width="34" height="14" rx="7" fill="#C2D1E8" />
+    <rect x="86" y="62" width="143" height="36" rx="18" fill="url(#navyG)" /><text x="157.5" y="85.4" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.2" opacity="1">RO SYSTEM</text>
+  </svg>

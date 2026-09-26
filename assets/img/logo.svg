@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Mangal Enterprises logo">
+  <defs>
+    <linearGradient id="meMark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1D4ED8"/>
+      <stop offset="0.55" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="meShine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="112" height="112" rx="30" fill="url(#meMark)"/>
+  <path d="M4 34 A30 30 0 0 1 34 4 H86 A30 30 0 0 1 116 34 V52 C86 74 34 74 4 52 Z" fill="url(#meShine)"/>
+  <g stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" fill="none">
+    <line x1="60" y1="26" x2="60" y2="94"/>
+    <line x1="30.6" y1="43" x2="89.4" y2="77"/>
+    <line x1="30.6" y1="77" x2="89.4" y2="43"/>
+  </g>
+  <g stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M60 26 L48 37 M60 26 L72 37"/>
+    <path d="M60 94 L48 83 M60 94 L72 83"/>
+    <path d="M30.6 43 L33 58 M30.6 43 L44.5 48"/>
+    <path d="M89.4 77 L87 62 M89.4 77 L75.5 72"/>
+    <path d="M30.6 77 L44.5 72 M30.6 77 L33 62"/>
+    <path d="M89.4 43 L75.5 48 M89.4 43 L87 58"/>
+  </g>
+  <circle cx="60" cy="60" r="9" fill="#FFFFFF"/>
+  <circle cx="60" cy="60" r="4.5" fill="#1D4ED8"/>
+</svg>
