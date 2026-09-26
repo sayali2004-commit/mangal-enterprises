@@ -18,9 +18,9 @@ const SITE = {
   supportLine: 'Air Conditioning • Refrigeration • HVAC • Maintenance • Turnkey Projects',
   since: '2005',
 
-  phoneDisplay: '+91 88308 79712',
-  phoneDial: '+918830879712',
-  whatsapp: '918830879712', // country code + number, no + sign, spaces or special characters
+  phoneDisplay: '+91 98765 43210',
+  phoneDial: '+919876543210',
+  whatsapp: '919876543210', // country code + number, no + sign, spaces or special characters
   email: 'sales@mangalenterprises.in',
 
   address: 'Shop No. 12, Industrial Area Phase-II, New Delhi - 110020',
