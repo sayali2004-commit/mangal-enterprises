@@ -106,29 +106,16 @@
         </div>
 
         <div class="hero-visual" data-reveal style="--d:.3s">
-          <article class="showroom-card showroom-main" data-parallax="18">
-            <div class="showroom-img">
-              <img src="assets/img/products/breeze-inverter-split-ac.svg" alt="Inverter split air conditioner" loading="eager" width="640" height="480" />
-            </div>
-            <div class="showroom-meta">
-              <span class="chip chip-mini chip-cyan">Air Conditioners</span>
-              <strong>Breeze 1.5T Inverter Split AC</strong>
-            </div>
-          </article>
-
-          <article class="showroom-card showroom-mini showroom-a" data-parallax="34">
-            <div class="showroom-img">
-              <img src="assets/img/products/walk-in-cold-room.svg" alt="Walk-in cold room" loading="lazy" width="640" height="480" />
-            </div>
-            <div class="showroom-meta"><span class="chip chip-mini chip-blue">Cold Rooms</span></div>
-          </article>
-
-          <article class="showroom-card showroom-mini showroom-b" data-parallax="26">
-            <div class="showroom-img">
-              <img src="assets/img/products/aquapure-ro-uv-water-purifier.svg" alt="RO water purifier" loading="lazy" width="640" height="480" />
-            </div>
-            <div class="showroom-meta"><span class="chip chip-mini chip-violet">Water Purifiers</span></div>
-          </article>
+          <div class="hero-slider" id="heroSlider">
+            <div class="hero-slider-track" id="heroSliderTrack"></div>
+            <div class="hero-slider-dots" id="heroSliderDots"></div>
+            <button class="hero-slider-arrow hero-slider-prev" id="heroSliderPrev" aria-label="Previous slide">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <button class="hero-slider-arrow hero-slider-next" id="heroSliderNext" aria-label="Next slide">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18l6-6-6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
 
           <span class="hero-float hero-float-1" data-parallax="44">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M5.6 7.5l12.8 9M18.4 7.5l-12.8 9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
@@ -532,6 +519,7 @@
     <div class="footer-bottom">
       <div class="container footer-bottom-inner">
         <span>© <span id="year">2026</span> Mangal Enterprises. All rights reserved.</span>
+        <span class="footer-credit">Designed by <a href="https://nexgravision.com" target="_blank" rel="noopener">NexGravision</a></span>
         <span>GSTIN: <span id="footerGst">07ABCDE1234F1Z5</span></span>
         <span class="footer-note">Digital Catalog v1.0</span>
       </div>
